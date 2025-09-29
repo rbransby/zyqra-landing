@@ -173,9 +173,9 @@ The variant is:
 ### Mockup Images
 
 Add your mockup images to `/public/mockups/`:
-- `calendar.png` - Calendar/scheduling view (800x600px)
-- `reminders.png` - SMS/email reminder setup (800x600px)
-- `invoices.png` - Invoicing feature (800x600px)
+- `add-customers.webp` - Customer management view (800x600px)
+- `schedule-jobs.webp` - Job scheduling and calendar view (800x600px)
+- `get-paid-faster.webp` - Invoicing and payment feature (800x600px)
 
 ### OG Image
 

@@ -209,11 +209,11 @@ export default async function LandingPage({
               <p className="mt-2 text-muted-foreground">
                 Import from a spreadsheet or add them one by one. Takes less than 5 minutes.
               </p>
-              <div className="mt-4 rounded-lg overflow-hidden border">
+              <div className="mt-4">
                 <img
-                  src="/mockups/calendar.png"
-                  alt="Calendar view mockup"
-                  className="w-full h-48 object-cover object-top"
+                  src="/mockups/add-customers.webp"
+                  alt="Add customers mockup"
+                  className="w-full h-auto rounded-lg"
                 />
               </div>
             </div>
@@ -226,11 +226,11 @@ export default async function LandingPage({
               <p className="mt-2 text-muted-foreground">
                 Book appointments, set up recurring jobs, and see your week at a glance.
               </p>
-              <div className="mt-4 rounded-lg overflow-hidden border">
+              <div className="mt-4">
                 <img
-                  src="/mockups/reminders.png"
-                  alt="Reminders mockup"
-                  className="w-full h-48 object-cover object-top"
+                  src="/mockups/schedule-jobs.webp"
+                  alt="Schedule jobs mockup"
+                  className="w-full h-auto rounded-lg"
                 />
               </div>
             </div>
@@ -243,11 +243,11 @@ export default async function LandingPage({
               <p className="mt-2 text-muted-foreground">
                 Send invoices instantly and track who's paid. Money in your bank within 2 days.
               </p>
-              <div className="mt-4 rounded-lg overflow-hidden border">
+              <div className="mt-4">
                 <img
-                  src="/mockups/invoices.png"
-                  alt="Invoices mockup"
-                  className="w-full h-48 object-cover object-top"
+                  src="/mockups/get-paid-faster.webp"
+                  alt="Get paid faster mockup"
+                  className="w-full h-auto rounded-lg"
                 />
               </div>
             </div>

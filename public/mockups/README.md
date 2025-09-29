@@ -1,18 +1,18 @@
 # Mockup Images
 
-This directory should contain the following mockup images:
+This directory contains the following mockup images:
 
-1. **calendar.png** - A screenshot showing the calendar/scheduling view
+1. **add-customers.webp** - A screenshot showing the customer management view
    - Recommended size: 800x600px
-   - Show a weekly calendar with some appointments
+   - Show customer list and management interface
    
-2. **reminders.png** - A screenshot showing SMS/email reminder setup
+2. **schedule-jobs.webp** - A screenshot showing job scheduling and calendar view
    - Recommended size: 800x600px
-   - Show reminder configuration or sent reminders
+   - Show calendar with appointments and scheduling interface
    
-3. **invoices.png** - A screenshot showing the invoicing feature
+3. **get-paid-faster.webp** - A screenshot showing the invoicing and payment feature
    - Recommended size: 800x600px
-   - Show an invoice or payment tracking view
+   - Show invoice creation and payment tracking interface
 
 ## Design Guidelines
 
@@ -26,8 +26,8 @@ This directory should contain the following mockup images:
 If you need placeholder images for development:
 ```bash
 # Create placeholder images (requires ImageMagick)
-convert -size 800x600 xc:lightgray -gravity center -pointsize 24 -annotate +0+0 'Calendar Mockup' calendar.png
-convert -size 800x600 xc:lightgray -gravity center -pointsize 24 -annotate +0+0 'Reminders Mockup' reminders.png
-convert -size 800x600 xc:lightgray -gravity center -pointsize 24 -annotate +0+0 'Invoices Mockup' invoices.png
+convert -size 800x600 xc:lightgray -gravity center -pointsize 24 -annotate +0+0 'Add Customers Mockup' add-customers.webp
+convert -size 800x600 xc:lightgray -gravity center -pointsize 24 -annotate +0+0 'Schedule Jobs Mockup' schedule-jobs.webp
+convert -size 800x600 xc:lightgray -gravity center -pointsize 24 -annotate +0+0 'Get Paid Faster Mockup' get-paid-faster.webp
 ```
 
