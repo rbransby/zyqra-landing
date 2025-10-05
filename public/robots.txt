@@ -3,5 +3,5 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://zyqra.com/sitemap.xml
+Sitemap: https://zyqra.services/sitemap.xml
 

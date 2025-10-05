@@ -113,8 +113,8 @@ export default function TermsPage() {
           <h2 className="text-2xl font-semibold mt-8">Contact</h2>
           <p>
             Questions about these terms? Email us at{' '}
-            <a href="mailto:legal@zyqra.com" className="text-primary underline">
-              legal@zyqra.com
+            <a href="mailto:hello@zyqra.services" className="text-primary underline">
+              hello@zyqra.services
             </a>
           </p>
         </div>

@@ -87,8 +87,8 @@ export default function PrivacyPage() {
           <h2 className="text-2xl font-semibold mt-8">Contact us</h2>
           <p>
             If you have any questions about our privacy policy or how we handle your data, please email us at{' '}
-            <a href="mailto:privacy@zyqra.com" className="text-primary underline">
-              privacy@zyqra.com
+            <a href="mailto:privacy@zyqra.services" className="text-primary underline">
+              privacy@zyqra.services
             </a>
           </p>
           

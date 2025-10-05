@@ -305,7 +305,7 @@ export default async function LandingPage({
               <a href="/terms" className="text-sm text-muted-foreground hover:text-foreground">
                 Terms
               </a>
-              <a href="mailto:hello@zyqra.com" className="text-sm text-muted-foreground hover:text-foreground">
+              <a href="mailto:hello@zyqra.services" className="text-sm text-muted-foreground hover:text-foreground">
                 Contact
               </a>
             </nav>

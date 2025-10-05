@@ -86,7 +86,7 @@ export async function POST(request: NextRequest) {
     if (resend) {
       try {
         await resend.emails.send({
-          from: 'Zyqra <noreply@zyqra.com>',
+          from: 'Zyqra <noreply@zyqra.services>',
           to: validatedData.email,
           subject: 'Welcome to the Zyqra waitlist!',
           html: `

@@ -53,7 +53,7 @@ NEXT_PUBLIC_SITE_URL=http://localhost:3000
 # Analytics (all optional)
 NEXT_PUBLIC_META_PIXEL_ID=your_pixel_id
 NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
-NEXT_PUBLIC_PLAUSIBLE_DOMAIN=zyqra.com
+NEXT_PUBLIC_PLAUSIBLE_DOMAIN=zyqra.services
 
 # Lead Storage - Choose one adapter
 FEATURE_ADAPTER=SUPABASE  # or AIRTABLE or SHEETS
@@ -154,7 +154,7 @@ Visit [http://localhost:3000](http://localhost:3000)
 ### Plausible
 
 1. Add your site to [plausible.io](https://plausible.io)
-2. Add to `.env.local`: `NEXT_PUBLIC_PLAUSIBLE_DOMAIN=zyqra.com`
+2. Add to `.env.local`: `NEXT_PUBLIC_PLAUSIBLE_DOMAIN=zyqra.services`
 
 ## A/B Testing
 

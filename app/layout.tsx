@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Zyqra - Bookings, reminders, and payments—done.',
     description: 'Stop no-shows and admin chaos. Simple scheduling for domestic service providers.',
-    url: 'https://zyqra.com',
+    url: 'https://zyqra.services',
     siteName: 'Zyqra',
     images: [
       {
