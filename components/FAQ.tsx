@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     question: "How much do the SMS reminders cost?",
-    answer: "SMS reminders cost just 2p per message in the UK. Most businesses spend less than £10/month on SMS. You can also use free email reminders, or a combination of both based on customer preference."
+    answer: "SMS reminders cost just 5c per message in Australia. Most businesses spend less than $15 AUD/month on SMS. You can also use free email reminders, or a combination of both based on customer preference."
   },
   {
     question: "Can I cancel anytime?",
@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     question: "When will Zyqra be ready?",
-    answer: "We're launching our beta in early 2024. Join the waitlist to get early access and lock in our special launch pricing of £19/month (regular price will be £29/month)."
+    answer: "We're launching our beta in early 2024. Join the waitlist to get early access and lock in our special launch pricing of $29 AUD/month (regular price will be $49 AUD/month)."
   },
   {
     question: "Do I need to be tech-savvy to use Zyqra?",

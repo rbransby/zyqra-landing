@@ -15,7 +15,7 @@ export default function ThanksPage() {
   const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(shareText + ' ' + shareUrl)}`
   const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`
   const emailSubject = 'Check out Zyqra - booking software for domestic services'
-  const emailBody = `Hi,\n\nI just joined the waitlist for Zyqra and thought you might be interested too.\n\nIt's simple booking software designed for cleaners, gardeners, handymen, and dog walkers. They're offering early adopter pricing of £19/month.\n\nCheck it out: ${shareUrl}\n\nBest,`
+  const emailBody = `Hi,\n\nI just joined the waitlist for Zyqra and thought you might be interested too.\n\nIt's simple booking software designed for cleaners, gardeners, handymen, and dog walkers. They're offering early adopter pricing of $29 AUD/month.\n\nCheck it out: ${shareUrl}\n\nBest,`
   const emailUrl = `mailto:?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`
 
   return (

@@ -45,7 +45,7 @@ export default function TermsPage() {
           <h2 className="text-2xl font-semibold mt-8">Payment terms</h2>
           <ul>
             <li><strong>Billing:</strong> Monthly subscription, billed in advance</li>
-            <li><strong>Price:</strong> As shown on our pricing page (currently £19/month for early adopters)</li>
+            <li><strong>Price:</strong> As shown on our pricing page (currently $29 AUD/month for early adopters)</li>
             <li><strong>Cancellation:</strong> Cancel anytime, access continues until end of billing period</li>
             <li><strong>Refunds:</strong> No refunds for partial months</li>
             <li><strong>SMS costs:</strong> Charged separately at 2p per message</li>
