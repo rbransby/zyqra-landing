@@ -8,7 +8,7 @@ export function getVariantContent(variant: Variant) {
     },
     v2: {
       headline: "Stop no-shows. Get paid on time.",
-      subheadline: "Simple scheduling, SMS reminders, and instant invoices for cleaners and gardeners.",
+      subheadline: "Simple scheduling, SMS reminders, and instant invoices for sole traders and micro businesses.",
     },
   }
 
