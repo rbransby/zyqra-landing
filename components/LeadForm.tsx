@@ -133,6 +133,23 @@ export function LeadForm({ variant, utm }: LeadFormProps) {
                 <SelectItem value="gardener">Gardener</SelectItem>
                 <SelectItem value="handyman">Handyman</SelectItem>
                 <SelectItem value="dog_walker">Dog Walker</SelectItem>
+                <SelectItem value="plumber">Plumber</SelectItem>
+                <SelectItem value="electrician">Electrician</SelectItem>
+                <SelectItem value="painter">Painter</SelectItem>
+                <SelectItem value="carpenter">Carpenter</SelectItem>
+                <SelectItem value="locksmith">Locksmith</SelectItem>
+                <SelectItem value="pest_control">Pest Control</SelectItem>
+                <SelectItem value="window_cleaner">Window Cleaner</SelectItem>
+                <SelectItem value="tutor">Tutor</SelectItem>
+                <SelectItem value="personal_trainer">Personal Trainer</SelectItem>
+                <SelectItem value="massage_therapist">Massage Therapist</SelectItem>
+                <SelectItem value="hairdresser">Hairdresser</SelectItem>
+                <SelectItem value="beautician">Beautician</SelectItem>
+                <SelectItem value="photographer">Photographer</SelectItem>
+                <SelectItem value="graphic_designer">Graphic Designer</SelectItem>
+                <SelectItem value="web_developer">Web Developer</SelectItem>
+                <SelectItem value="bookkeeper">Bookkeeper</SelectItem>
+                <SelectItem value="virtual_assistant">Virtual Assistant</SelectItem>
                 <SelectItem value="other">Other</SelectItem>
               </SelectContent>
             </Select>
