@@ -100,7 +100,7 @@ CREATE INDEX idx_leads_email ON leads(email);
 1. Create a new base in Airtable
 2. Create a table called "Leads" with these fields:
    - Email (Email field)
-   - Role (Single select: cleaner, gardener, handyman, dog_walker, other)
+   - Role (Single select: cleaner, gardener, handyman, dog_walker, plumber, electrician, painter, carpenter, locksmith, pest_control, window_cleaner, tutor, personal_trainer, massage_therapist, hairdresser, beautician, photographer, graphic_designer, web_developer, bookkeeper, virtual_assistant, other)
    - Business Type (Single select: sole_trader, micro_team)
    - Notes (Long text)
    - Source (Single line text)

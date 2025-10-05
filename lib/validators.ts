@@ -2,7 +2,7 @@ import { z } from 'zod'
 
 export const leadSchema = z.object({
   email: z.string().email('Please enter a valid email address'),
-  role: z.enum(['cleaner', 'gardener', 'handyman', 'dog_walker', 'other'], {
+  role: z.enum(['cleaner', 'gardener', 'handyman', 'dog_walker', 'plumber', 'electrician', 'painter', 'carpenter', 'locksmith', 'pest_control', 'window_cleaner', 'tutor', 'personal_trainer', 'massage_therapist', 'hairdresser', 'beautician', 'photographer', 'graphic_designer', 'web_developer', 'bookkeeper', 'virtual_assistant', 'other'], {
     required_error: 'Please select your role',
   }),
   biz_type: z.enum(['sole_trader', 'micro_team'], {
