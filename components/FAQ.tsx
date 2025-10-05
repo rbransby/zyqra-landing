@@ -12,7 +12,7 @@ const faqs = [
   },
   {
     question: "How much do the SMS reminders cost?",
-    answer: "SMS reminders cost just 5c per message in Australia. Most businesses spend less than $15 AUD/month on SMS. You can also use free email reminders, or a combination of both based on customer preference."
+    answer: "The cost of SMS reminders is included in your monthly subscription!"
   },
   {
     question: "Can I cancel anytime?",
