@@ -1,6 +1,14 @@
 import { createClient } from '@supabase/supabase-js'
 import type { Lead, LeadAdapter } from './types'
 
+// Type for PostgreSQL error from Supabase
+interface PostgresError {
+  code: string
+  details: string | null
+  hint: string | null
+  message: string
+}
+
 const supabaseUrl = process.env.SUPABASE_URL
 const supabaseServiceRoleKey = process.env.SUPABASE_SERVICE_ROLE_KEY
 
@@ -34,6 +42,17 @@ export const supabaseAdapter: LeadAdapter = {
 
       if (error) {
         console.error('Supabase insert error:', error)
+        
+        // Check if it's a duplicate email error using PostgreSQL error code
+        // 23505 is the PostgreSQL error code for unique constraint violations
+        const pgError = error as PostgresError
+        if (pgError.code === '23505' && (
+          pgError.details?.includes('leads_email_key') || 
+          pgError.details?.includes('email')
+        )) {
+          return { success: false, error: 'This email address is already registered. Please use a different email or contact us if you need assistance.' }
+        }
+        
         return { success: false, error: error.message }
       }
 
