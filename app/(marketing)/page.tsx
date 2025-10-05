@@ -276,15 +276,15 @@ export default async function LandingPage({
           <div className="rounded-2xl border bg-background p-8">
             <h3 className="text-xl font-semibold">Why we're building Zyqra</h3>
             <p className="mt-4 text-muted-foreground">
-              Hi, I'm Sarah. I ran a cleaning business for 5 years and wasted countless hours on admin work. 
+              Hi, I'm Rob. I ran a small business for 10 years and wasted countless hours on admin work. 
               Existing software was either too complex or too expensive for a sole trader like me.
             </p>
             <p className="mt-4 text-muted-foreground">
               That's why we're building Zyqra - simple, affordable booking software designed specifically for 
-              domestic service professionals. No bloat, no complexity, just the features you actually need.
+              small business and sole traders. No bloat, no complexity, just the features you actually need.
             </p>
             <p className="mt-4 text-sm font-medium">
-              - Sarah, Founder
+              - Rob, Founder
             </p>
           </div>
         </div>
@@ -296,7 +296,7 @@ export default async function LandingPage({
           <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
             <div className="flex items-center gap-2">
               <span className="font-bold text-xl">Zyqra</span>
-              <span className="text-sm text-muted-foreground">© 2024</span>
+              <span className="text-sm text-muted-foreground">© 2025</span>
             </div>
             <nav className="flex gap-6">
               <a href="/privacy" className="text-sm text-muted-foreground hover:text-foreground">

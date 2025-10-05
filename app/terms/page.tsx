@@ -11,7 +11,7 @@ export default function TermsPage() {
       <div className="mx-auto max-w-3xl">
         <h1 className="text-4xl font-bold tracking-tight">Terms of Service</h1>
         <p className="mt-4 text-lg text-muted-foreground">
-          Last updated: January 2024
+          Last updated: January 2025
         </p>
         
         <div className="mt-8 prose prose-gray max-w-none">
