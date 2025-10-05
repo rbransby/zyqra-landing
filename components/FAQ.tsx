@@ -29,6 +29,10 @@ const faqs = [
   {
     question: "What about customer payments?",
     answer: "Zyqra integrates with Stripe to let you accept card payments instantly. Your customers can pay via a secure link sent by SMS or email. Money goes directly to your bank account, and we track everything automatically."
+  },
+  {
+    question: "What if I need help or have questions?",
+    answer: "We're here to help! You can reach us anytime at hello@zyqra.services. We aim to respond within 24 hours and provide friendly, helpful support from real humans (not chatbots)."
   }
 ]
 

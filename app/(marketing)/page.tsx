@@ -283,6 +283,12 @@ export default async function LandingPage({
               That's why we're building Zyqra - simple, affordable booking software designed specifically for 
               small business and sole traders. No bloat, no complexity, just the features you actually need.
             </p>
+            <p className="mt-4 text-muted-foreground">
+              Got questions? I'd love to hear from you -{' '}
+              <a href="mailto:hello@zyqra.services" className="text-primary underline">
+                hello@zyqra.services
+              </a>
+            </p>
             <p className="mt-4 text-sm font-medium">
               - Rob, Founder
             </p>
@@ -305,7 +311,7 @@ export default async function LandingPage({
               <a href="/terms" className="text-sm text-muted-foreground hover:text-foreground">
                 Terms
               </a>
-              <a href="mailto:hello@zyqra.com" className="text-sm text-muted-foreground hover:text-foreground">
+              <a href="mailto:hello@zyqra.services" className="text-sm text-muted-foreground hover:text-foreground">
                 Contact
               </a>
             </nav>
