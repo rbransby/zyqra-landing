@@ -33,6 +33,13 @@ export default function ThanksPage() {
           Thanks for joining the Zyqra waitlist. We'll email you as soon as we launch with your exclusive early adopter discount.
         </p>
         
+        <p className="mt-4 text-sm text-muted-foreground">
+          Questions in the meantime? Drop us a line at{' '}
+          <a href="mailto:hello@zyqra.services" className="text-primary underline">
+            hello@zyqra.services
+          </a>
+        </p>
+        
         <div className="mt-8 rounded-lg border bg-muted/50 p-6">
           <h2 className="text-lg font-semibold">
             Know someone who'd love Zyqra?
