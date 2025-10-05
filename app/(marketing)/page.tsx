@@ -106,36 +106,40 @@ export default async function LandingPage({
         </div>
       </section>
 
-      {/* Social Proof */}
+      {/* Problem Statement */}
       <section className="py-12 bg-muted/50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl font-bold tracking-tight">Tired of the admin chaos?</h2>
+            <p className="mt-2 text-muted-foreground">You're not alone. Here's what domestic service professionals struggle with daily:</p>
+          </div>
           <div className="grid grid-cols-1 gap-8 sm:grid-cols-3">
             <div className="text-center">
-              <div className="mx-auto h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
-                <Users className="h-6 w-6 text-primary" />
+              <div className="mx-auto h-12 w-12 rounded-full bg-red-100 flex items-center justify-center">
+                <Users className="h-6 w-6 text-red-600" />
               </div>
-              <blockquote className="mt-4">
-                <p className="text-sm text-gray-600">"Cut my no-shows in half"</p>
-                <footer className="mt-2 text-xs text-gray-500">Sarah, Cleaner</footer>
-              </blockquote>
+              <div className="mt-4">
+                <h3 className="font-semibold text-gray-900">No-shows & cancellations</h3>
+                <p className="mt-2 text-sm text-gray-600">Lost income from customers who forget or cancel last minute</p>
+              </div>
             </div>
             <div className="text-center">
-              <div className="mx-auto h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
-                <Clock className="h-6 w-6 text-primary" />
+              <div className="mx-auto h-12 w-12 rounded-full bg-red-100 flex items-center justify-center">
+                <Clock className="h-6 w-6 text-red-600" />
               </div>
-              <blockquote className="mt-4">
-                <p className="text-sm text-gray-600">"Invoicing takes 2 minutes now"</p>
-                <footer className="mt-2 text-xs text-gray-500">Mike, Gardener</footer>
-              </blockquote>
+              <div className="mt-4">
+                <h3 className="font-semibold text-gray-900">Hours on paperwork</h3>
+                <p className="mt-2 text-sm text-gray-600">Manually creating invoices and chasing payments</p>
+              </div>
             </div>
             <div className="text-center">
-              <div className="mx-auto h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center">
-                <MessageSquare className="h-6 w-6 text-primary" />
+              <div className="mx-auto h-12 w-12 rounded-full bg-red-100 flex items-center justify-center">
+                <MessageSquare className="h-6 w-6 text-red-600" />
               </div>
-              <blockquote className="mt-4">
-                <p className="text-sm text-gray-600">"Customers love the reminders"</p>
-                <footer className="mt-2 text-xs text-gray-500">Emma, Dog Walker</footer>
-              </blockquote>
+              <div className="mt-4">
+                <h3 className="font-semibold text-gray-900">Scattered information</h3>
+                <p className="mt-2 text-sm text-gray-600">Customer details spread across notebooks, phones, and memory</p>
+              </div>
             </div>
           </div>
         </div>
