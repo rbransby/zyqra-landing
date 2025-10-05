@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 }
 
 export default function ThanksPage() {
-  const shareUrl = 'https://zyqra.com'
+  const shareUrl = 'https://zyqra.services'
   const shareText = 'I just joined the waitlist for Zyqra - simple booking software for cleaners, gardeners & more. Get early access:'
   
   const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(shareText + ' ' + shareUrl)}`
