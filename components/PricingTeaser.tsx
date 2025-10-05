@@ -16,11 +16,11 @@ export function PricingTeaser() {
             <div className="text-center">
               <p className="text-sm font-semibold text-primary">EARLY ADOPTER SPECIAL</p>
               <p className="mt-4 flex items-baseline justify-center gap-x-2">
-                <span className="text-5xl font-bold tracking-tight">£19</span>
+                <span className="text-5xl font-bold tracking-tight">$29</span>
                 <span className="text-sm font-semibold leading-6 tracking-wide text-muted-foreground">/month</span>
               </p>
               <p className="mt-2 text-sm text-muted-foreground line-through">
-                Regular price: £29/month
+                Regular price: $49 AUD/month
               </p>
               <p className="mt-6 text-base leading-7 text-muted-foreground">
                 Everything you need to run your domestic service business

@@ -95,7 +95,7 @@ export async function POST(request: NextRequest) {
             <p>We're excited to have you on board. You're now on the list to get early access to Zyqra when we launch.</p>
             <p>As an early adopter, you'll get:</p>
             <ul>
-              <li>Exclusive pricing of £19/month (regular price £29/month)</li>
+              <li>Exclusive pricing of $29 AUD/month (regular price $49 AUD/month)</li>
               <li>First access to new features</li>
               <li>Direct input on product development</li>
             </ul>
