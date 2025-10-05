@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { getVariantContent } from '@/lib/variant'
+import { getVariantContent } from '@/lib/variant-content'
 
 describe('Variant Content', () => {
   it('should return v1 content', () => {
