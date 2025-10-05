@@ -34,6 +34,12 @@ export const supabaseAdapter: LeadAdapter = {
 
       if (error) {
         console.error('Supabase insert error:', error)
+        
+        // Check if it's a duplicate email error
+        if (error.message.includes('duplicate key value violates unique constraint "leads_email_key"')) {
+          return { success: false, error: 'This email address is already registered. Please use a different email or contact us if you need assistance.' }
+        }
+        
         return { success: false, error: error.message }
       }
 

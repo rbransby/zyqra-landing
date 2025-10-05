@@ -10,12 +10,12 @@ export const metadata: Metadata = {
 
 export default function ThanksPage() {
   const shareUrl = 'https://zyqra.services'
-  const shareText = 'I just joined the waitlist for Zyqra - simple booking software for cleaners, gardeners & more. Get early access:'
+  const shareText = 'I just joined the waitlist for Zyqra - simple booking software for sole traders and micro businesses. Get early access:'
   
   const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(shareText + ' ' + shareUrl)}`
   const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`
   const emailSubject = 'Check out Zyqra - booking software for domestic services'
-  const emailBody = `Hi,\n\nI just joined the waitlist for Zyqra and thought you might be interested too.\n\nIt's simple booking software designed for cleaners, gardeners, handymen, and dog walkers. They're offering early adopter pricing of $29 AUD/month.\n\nCheck it out: ${shareUrl}\n\nBest,`
+  const emailBody = `Hi,\n\nI just joined the waitlist for Zyqra and thought you might be interested too.\n\nIt's simple booking software designed for sole traders and micro businesses in domestic services. They're offering early adopter pricing of $29 AUD/month.\n\nCheck it out: ${shareUrl}\n\nBest,`
   const emailUrl = `mailto:?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`
 
   return (
@@ -38,7 +38,7 @@ export default function ThanksPage() {
             Know someone who'd love Zyqra?
           </h2>
           <p className="mt-2 text-sm text-muted-foreground">
-            Share with fellow cleaners, gardeners, or handymen and help them save hours on admin too.
+            Share with fellow sole traders and micro businesses and help them save hours on admin too.
           </p>
           
           <div className="mt-4 flex flex-col gap-3">
