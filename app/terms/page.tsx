@@ -107,7 +107,7 @@ export default function TermsPage() {
           <ul>
             <li>We'll try to resolve it through friendly discussion first</li>
             <li>If needed, we'll use mediation</li>
-            <li>As a last resort, disputes will be handled by UK courts</li>
+            <li>As a last resort, disputes will be handled by Australian courts</li>
           </ul>
           
           <h2 className="text-2xl font-semibold mt-8">Contact</h2>

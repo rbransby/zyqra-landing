@@ -50,7 +50,7 @@ export function PricingTeaser() {
               </li>
               <li className="flex gap-x-3">
                 <Check className="h-6 w-5 flex-none text-primary" aria-hidden="true" />
-                UK-based support
+                Australian-based support
               </li>
             </ul>
             
