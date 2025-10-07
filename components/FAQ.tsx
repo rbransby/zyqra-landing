@@ -20,7 +20,7 @@ const faqs = [
   },
   {
     question: "When will Zyqra be ready?",
-    answer: "We're launching our beta in late 2025. Join the waitlist to get early access and lock in our special launch pricing of $29 AUD/month (regular price will be $49 AUD/month)."
+    answer: "We're launching our beta in late 2025. Join the waitlist to get early access and lock in our special launch pricing of $19 AUD/month (regular price will be $39 AUD/month)."
   },
   {
     question: "Do I need to be tech-savvy to use Zyqra?",
